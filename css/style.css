@@ -1,0 +1,59 @@
+body {
+    background: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+div.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    flex-direction: column;
+}
+
+header {
+    background: #1F2937;
+    color: #F9FAF8;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 0 50px 50px 50px;
+}
+
+p.logo {
+    flex: 1;
+    font-weight: bolder;
+}
+
+div.mainwrapper {
+    display: flex;
+    background: red;
+    width: 1000px;
+    padding: 50px 50px 0 50px;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+
+div.hero {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+div.heroimg {
+    flex: 1;
+    width: 100%
+}
+
+img {
+    width: 100%;
+}
